@@ -55,10 +55,6 @@ slot_machine = pygame.image.load('attachment.png')
 slot_machine = pygame.transform.scale(slot_machine, (800,500))
 boss = pygame.image.load('boss.png')
 boss = pygame.transform.scale(boss, (200,200))
-bubble = pygame.image.load('bubble_text.png')
-bubble = pygame.transform.scale(bubble, (200,200))
-
-
 
 pos_1 = width - 320 
 pos_2 = width - 500
