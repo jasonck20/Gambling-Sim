@@ -140,7 +140,6 @@ def display_stats():
     loss_stats = text_format(loss_str, font, 30, white)
     screen.blit(loss_stats, (185,200))
     screen.blit(boss, (width - 350, height - 300))
-    screen.blit(bubble, (width - 250, height - 475))
     draw_text("Suicide hotline", font2, black, width - 230, height - 420)
     draw_text("780-709-0810", font2, black, width - 230, height - 390)
     pygame.display.update()
